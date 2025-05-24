@@ -10,7 +10,7 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 
 | Date      | 13 June 2025                   |
 |-----------|--------------------------------|
-| Time      |  9:00am - 1pm (Europe/Berlin)  |
+| Time      |  9:00 AM - 1 PM (Europe/Berlin)  |
 | Location  |  Hall Y7 - 2nd floor           |
 
 
@@ -20,16 +20,23 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 |-----------------------|-----------------------------------------------------|--------------------|------------------------|
 | 9:00 AM - 9:15 AM     | Welcome and Overview of the ALCF AI Testbed         | 15                 | Murali (ANL)           |
 | 9:15 AM - 10:00 AM    | Cerebras: Talk + Hands-on [[Slides]()]              | 45                 | Leighton (Cerebras)    |
-| 10:00 AM - 10:30 AM   | Coffee Break                                        | 30                 |                        |
-| 10:30 AM - 11:15 AM   | Sambanova: Talk + Hands-on [[Slides]()]             | 45                 | Petro (SambaNova)      |
-| 11:15 AM - 12:00 PM   | Graphcore: Talk + Hands-on [[Slides]()]             | 45                 | Varuni/Murali (ANL)    |
-| 12:00 PM - 12:45 PM   | Groq: Talk + Hands-on [[Slides]()]                  | 45                 | Sanjif (Groq)          |
-| 12:45 PM - 1:00 PM    | Q&A, Wrap up                                        | 15                 | Murali/Varuni (ANL)    |
+| 10:00 AM - 10:45 AM   | Sambanova: Talk + Hands-on [[Slides]()]             | 45                 | Petro (SambaNova)      |
+| 10:45 AM - 11:00 AM   | Discussion                                          | 15                 |                |
+| 11:00 AM - 11:30 AM   | Coffee Break                                        | 30                 |                        |
+| 11:30 AM - 12:15 PM   | Graphcore: Talk + Hands-on [[Slides]()]             | 45                 | Varuni/Murali (ANL)    |
+| 12:15 PM - 1:00 PM    | Groq: Talk + Hands-on [[Slides]()]                  | 45                 | Sanjif (Groq)          |
+
 
 
 
 
 ## Request Account on AI Testbeds At ALCF
+
+
+### Director’s Discretionary Allocation Program
+
+To gain access to AI Testbeds at ALCF <!-- after tutorial allocation expires--> 
+apply for [Director’s Discretionary Allocation Program](https://www.alcf.anl.gov/science/directors-discretionary-allocation-program) that provides “start up” awards to researchers working to achieve computational readiness for for a major allocation award.
 
 * Request an [ALCF Computer User Account](https://accounts.alcf.anl.gov/accountRequest) if you do not currently have one
 * If you have an ALCF Account that is currently inactive, submit an [account reactivation](https://accounts.alcf.anl.gov/accountReactivate) request*.
@@ -38,16 +45,10 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
   <!-- Specify the following in your request: 
   Project Name: `aitestbed_tutorial` -->
 
-Contact accounts@alcf.anl.gov M-F 9am to 5pm US Central Time. 
+Contact accounts@alcf.anl.gov M-F 9 AM to 5 PM US Central Time. 
 Reach out to us on slack channel `#help-accounts` on [ALCF-AIAccelerator-tutorials](https://join.slack.com/t/alcf-aiacc-tutorials/shared_invite/zt-25yjc7tnm-AlqTNcWrbH0c1KVNEExTuw) Slack. 
 
->ISC25 Tutorial allocation will stay active till end of June 2025. 
-
-### Director’s Discretionary Allocation Program
-
-To gain access to AI Testbeds at ALCF after tutorial allocation expires apply for [Director’s Discretionary Allocation Program](https://www.alcf.anl.gov/science/directors-discretionary-allocation-program)
-
-The ALCF Director’s Discretionary program provides “start up” awards to researchers working to achieve computational readiness for for a major allocation award.
+<!-- >ISC25 Tutorial allocation will stay active till end of June 2025. -->
 
 
 ## Useful Links 
@@ -61,6 +62,6 @@ The ALCF Director’s Discretionary program provides “start up” awards to re
 
 ##### Acknowledgements
 
-Contributors: [Varuni Sastry](https://www.alcf.anl.gov/about/people/varuni-katti-sastry), [Siddhisanket (Sid) Raskar](https://sraskar.github.io/), [Murali Emani](https://memani1.github.io/). 
+Contributors: [Murali Emani](https://memani1.github.io/), [Varuni Sastry](https://www.alcf.anl.gov/about/people/varuni-katti-sastry), [Siddhisanket (Sid) Raskar](https://sraskar.github.io/). 
 
 > This research used resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357.
