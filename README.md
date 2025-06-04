@@ -19,14 +19,11 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 | Time                  | Topic                                               | Duration (minutes) | Speaker                |
 |-----------------------|-----------------------------------------------------|--------------------|------------------------|
 | 9:00 AM - 9:15 AM     | Welcome and Overview of the ALCF AI Testbed         | 15                 | Murali (ANL)           |
-| 9:15 AM - 10:00 AM    | Cerebras: Talk + Hands-on [[Slides]()]              | 45                 | Leighton (Cerebras)    |
-| 10:00 AM - 10:45 AM   | Sambanova: Talk + Hands-on [[Slides]()]             | 45                 | Petro (SambaNova)      |
-| 10:45 AM - 11:00 AM   | Discussion                                          | 15                 |                |
+| 9:15 AM - 10:15 AM    | Cerebras: Talk + Hands-on [[Slides]()]              | 60                 | Leighton (Cerebras)    |
+| 10:15 AM - 11:00 AM   | Sambanova: Talk + Hands-on [[Slides]()]             | 45                 | Petro (SambaNova)      |
 | 11:00 AM - 11:30 AM   | Coffee Break                                        | 30                 |                        |
-| 11:30 AM - 12:15 PM   | Graphcore: Talk + Hands-on [[Slides]()]             | 45                 | Varuni/Murali (ANL)    |
+| 11:30 AM - 12:30 PM   | Sambanova: Hands-on [[Slides]()]                    | 15                 | Petro (SambaNova)      |
 | 12:15 PM - 1:00 PM    | Groq: Talk + Hands-on [[Slides]()]                  | 45                 | Sanjif (Groq)          |
-
-
 
 
 
