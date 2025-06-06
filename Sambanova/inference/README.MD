@@ -9,15 +9,15 @@ Get started using the SambaNova Cloud API in just a few minutes!
 ### Get your API key
 
 1. Create an account on the [SambaNova Cloud Developer Portal](https://cloud.sambanova.ai/) to get an API key.
-2. Once logged in, navigate to the APIs section and generate a new key. 
-3. Set your API key as an environment variable:
+2. Once logged in, navigate to the [API Keys section](https://cloud.sambanova.ai/apis) of the poral and generate a new key. 
+3. Save the API key securely. For example, you can set it as an environment variable:
    ```shell
    export SAMBANOVA_API_KEY="your-api-key-here"
    ```
 
 ### Pick a model
 
-The SambaNova cloud offers the latest open source models running at the fastest tokens per second.
+The SambaNova Cloud is frequently updated with latest open source models, running at the fastest tokens per second.
 
 To make an inference request from a model, you’ll need the model’s corresponding model-id. The full list of models and corresponding model-id’s are [listed here](https://community.sambanova.ai/t/supported-models/193).
 
