@@ -1,6 +1,6 @@
 # Inference using the SambaNova Cloud
 
-[SambaNova Cloud](https://cloud.sambanova.ai/) is an API service for inference at record-breaking speeds. 
+[SambaNova Cloud](https://cloud.sambanova.ai/) is available for developers to easily use the best open source models at record-breaking inference speeds. These models are powered by our state-of-the-art AI chip, the SN40L. 
 
 ## Quick Start Guide
 
@@ -19,7 +19,7 @@ Get started using the SambaNova Cloud API in just a few minutes!
 
 The SambaNova Cloud is frequently updated with latest open source models, running at the fastest tokens per second.
 
-To make an inference request from a model, you’ll need the model’s corresponding model-id. The full list of models and corresponding model-id’s are [listed here](https://community.sambanova.ai/t/supported-models/193).
+To make an inference request from a model, you’ll need the model’s corresponding model-id. The full list of models and corresponding model-id’s are [listed here](https://docs.sambanova.ai/cloud/docs/get-started/supported-models).
 
 ### Make an API request
 
@@ -29,7 +29,7 @@ You can make an inference request to our models in Python using two approaches:
 
 #### OpenAI client library
 
-Install the OpenAI Python library using pip, as shown below:
+Install the OpenAI Python library, as shown below. Make sure you have Python3 and pip installed:
 ```shell  
 pip install openai
 ```
@@ -38,37 +38,24 @@ Next, copy the code below into a python file called, `hello_world.py`.
 
 ```python
 from openai import OpenAI
-import os
-
-api_key = os.environ.get("SAMBANOVA_API_KEY")
 
 client = OpenAI(
-    base_url="https://api.sambanova.ai/v1/",
-    api_key=api_key,  
+    base_url="https://api.sambanova.ai/v1", 
+    api_key="your-api-key-here"
 )
-
-model = "Meta-Llama-3.1-405B-Instruct"
-prompt = "Tell me a joke about artificial intelligence."
 
 completion = client.chat.completions.create(
-    model=model,
-    messages=[
-        {
-            "role": "user", 
-            "content": prompt,
-        }
-    ],
-    stream=True,
+  model="Meta-Llama-3.1-405B-Instruct",
+  messages = [
+      {"role": "system", "content": "Answer the question in a couple sentences."},
+      {"role": "user", "content": "Share a happy story with me"}
+    ]
 )
 
-response = ""
-for chunk in completion:
-    response += chunk.choices[0].delta.content or ""
-
-print(response)
+print(completion.choices[0].message.content)
 ```
 
-Then run the file as shown below:
+Once copied into the file, replace the string field in "your-api-key-here" with your API Key value. Then run the file with the command below:
 ```shell  
 python hello_word.py
 ```
