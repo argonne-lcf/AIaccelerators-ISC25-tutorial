@@ -23,9 +23,9 @@ To make an inference request from a model, you’ll need the model’s correspon
 
 ### Make an API request
 
-You can make an inference request to our models in Python using two approaches:
-1. LangChain connectors (refer to the AI Starter Kits documentation).
-2. Open AI client library (see the example below).
+You can make an inference request to our models in Python using several approaches, two of which are described below:
+1. Open AI client library 
+2. LangChain connectors
 
 #### OpenAI client library
 
@@ -60,6 +60,9 @@ Once copied into the file, replace the string field in "your-api-key-here" with 
 python hello_word.py
 ```
 
+#### LangChain connectors
+See [here](https://docs.sambanova.ai/cloud/docs/integrations/langchain) to learn how to use LangChain with SambaNova models.
+
 ## AI Starter Kits
 
 [SambaNova AI Starter Kits](https://github.com/sambanova/ai-starter-kit/) are a collection of open-source examples and guides to facilitate the deployment of AI-driven use cases, designed to support both enterprises and developers in their AI adoption journeys.
@@ -88,11 +91,6 @@ After cloning the repository, go to `ai-starter-kit/quickstart`. Then, run the [
 ### Example 2: Complete Function Calling App
 
 This function calling kit is an example of tools calling implementation and a generic function calling module that can be used inside your application workflows. To build a complete function calling app, [click on this AI Starter Kit](https://github.com/sambanova/ai-starter-kit/blob/main/function_calling). 
-
-### Example 3: Complete Document Knowledge Retriever App
-
-The document knowledge retriever Kit allows you to quickly build a semantic search retrieval-augmented generation (RAG) application with Langchain and Streamlit in Python. To build a complete document knowledge retriever app, [click on this AI Starter Kit](https://github.com/sambanova/ai-starter-kit/blob/main/enterprise_knowledge_retriever). 
-
 
 
 
