@@ -9,7 +9,7 @@ Get started using the SambaNova Cloud API in just a few minutes!
 ### Get your API key
 
 1. Create an account on the [SambaNova Cloud Developer Portal](https://cloud.sambanova.ai/) to get an API key.
-2. Once logged in, navigate to the [API Keys section](https://cloud.sambanova.ai/apis) of the poral and generate a new key. 
+2. Once logged in, navigate to the [API Keys section](https://cloud.sambanova.ai/apis) of the portal and generate a new key. 
 3. Save the API key securely. For example, you can set it as an environment variable:
    ```shell
    export SAMBANOVA_API_KEY="your-api-key-here"
@@ -63,7 +63,7 @@ python hello_word.py
 #### LangChain connectors
 See [here](https://docs.sambanova.ai/cloud/docs/integrations/langchain) to learn how to use LangChain with SambaNova models.
 
-## AI Starter Kits
+## Function Calling Examples
 
 [SambaNova AI Starter Kits](https://github.com/sambanova/ai-starter-kit/) are a collection of open-source examples and guides to facilitate the deployment of AI-driven use cases, designed to support both enterprises and developers in their AI adoption journeys.
 
@@ -92,6 +92,11 @@ After cloning the repository, go to `ai-starter-kit/quickstart`. Then, run the [
 
 This function calling kit is an example of tools calling implementation and a generic function calling module that can be used inside your application workflows. To build a complete function calling app, [click on this AI Starter Kit](https://github.com/sambanova/ai-starter-kit/blob/main/function_calling). 
 
+## Additional Resources
+- [SambaNova Cloud documentation](https://docs.sambanova.ai/cloud/docs/get-started/overview)
+- [Integrations](https://docs.sambanova.ai/cloud/docs/integrations/overview)
+- [AI Starter Kits](https://github.com/sambanova/ai-starter-kit)
+- [SambaNova Agents Demo](https://aiskagents.cloud.snova.ai/)
 
 
 
