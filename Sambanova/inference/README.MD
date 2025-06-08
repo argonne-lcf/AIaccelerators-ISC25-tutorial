@@ -63,30 +63,13 @@ python hello_word.py
 #### LangChain connectors
 See [here](https://docs.sambanova.ai/cloud/docs/integrations/langchain) to learn how to use LangChain with SambaNova models.
 
-## Function Calling Examples
+## Tool Use Examples
 
-[SambaNova AI Starter Kits](https://github.com/sambanova/ai-starter-kit/) are a collection of open-source examples and guides to facilitate the deployment of AI-driven use cases, designed to support both enterprises and developers in their AI adoption journeys.
+Below are two examples you can try. **We recommend using Python >= 3.10 and < 3.12**. 
 
-Start by cloning the starter kit repo:
-```
-git clone https://github.com/sambanova/ai-starter-kit.git
-```
+### Example 1: Getting Started with Tool Use
 
-Then, update the API information by configuring the environment variables in the `ai-starter-kit/.env` file:
-- Create the `.env` file at `ai-starter-kit/.env` if the file does not exist.
-- Enter the SambaNova Cloud API key in the `.env` file, for example:
-  
-```bash
-SAMBANOVA_API_KEY = "your-api-key-here"
-```
-
-**Note**: If you've already set your API key as an environment variable (for example, in your `.bashrc` or `.zshrc`), there's no need to create the `.env` file.
-
-Below are three examples you can try. **We recommend using Python >= 3.10 and < 3.12**. 
-
-### Example 1: Function Calling Basics 
-
-After cloning the repository, go to `ai-starter-kit/quickstart`. Then, run the [function_calling_get_started.ipynb](https://github.com/sambanova/ai-starter-kit/blob/main/quickstart/function_calling_get_started.ipynb) notebook. 
+Run the [tool_use_get_started.ipynb](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Sambanova/inference/tool_use_get_started.ipynb) notebook. 
 
 ### Example 2: Complete Function Calling App
 
