@@ -19,7 +19,7 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 | Time                  | Topic                                               | Duration (minutes) | Speaker                |
 |-----------------------|-----------------------------------------------------|--------------------|------------------------|
 | 9:00 AM - 9:15 AM     | Welcome and Overview of the ALCF AI Testbed         | 15                 | Murali (ANL)           |
-| 9:15 AM - 10:15 AM    | Cerebras: Talk + Hands-on [[Slides]()]              | 60                 | Leighton (Cerebras)    |
+| 9:15 AM - 10:15 AM    | Cerebras: Talk + Hands-on [[Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Sambanova/ISC25_SambaNova.pdf)]              | 60                 | Leighton (Cerebras)    |
 | 10:15 AM - 11:00 AM   | Sambanova: Talk + Hands-on [[Slides]()]             | 45                 | Petro (SambaNova)      |
 | 11:00 AM - 11:30 AM   | Coffee Break                                        | 30                 |                        |
 | 11:30 AM - 12:30 PM   | Sambanova: Hands-on [[Slides]()]                    | 15                 | Petro (SambaNova)      |
