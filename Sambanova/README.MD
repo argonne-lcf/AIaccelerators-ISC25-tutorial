@@ -1,7 +1,5 @@
 # Hands-on with SambaNova Systems 
 
-<img src="images/cloud_and_datascale.png" alt="SN" width="600"/>
-
 This hands-on session is divided into two parts: 
 
 * [AI inference using the SambaNova Cloud](./inference/)
