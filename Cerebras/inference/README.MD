@@ -71,9 +71,10 @@ chat_completion = client.chat.completions.create(
 print(chat_completion.model_dump_json(indent=2))
 ```
 
-Now you're ready to run the examples. This directory includes two examples:
+Now you're ready to run the examples. This directory includes three examples:
 - [one demonstrating a simple chatbot application](1-simple-chatbot/README.MD),
-- and [one demonstrating function calling](2-function-calling/README.MD).
+- [one demonstrating function calling](2-function-calling/README.MD), and
+- [one demonstrating structured output](3-structured-output/README.MD).
 
 ## More Information
 
