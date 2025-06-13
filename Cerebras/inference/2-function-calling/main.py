@@ -75,7 +75,7 @@ messages = [
 
 # Generate response from model
 response = client.chat.completions.create(
-    model="llama3.1-8b",
+    model="qwen-3-32b",
     messages=messages,
     tools=tools,
 )
