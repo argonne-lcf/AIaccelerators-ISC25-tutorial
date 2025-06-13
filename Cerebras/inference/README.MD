@@ -38,7 +38,14 @@ pip install -r requirements.txt
 
 ## Step 3: Run Inference
 
-The Cerebras Inference cloud currently supports two models, `Llama 3.1 8B` and `Llama 3.1 70B`.
+The Cerebras Inference cloud currently supports the following models:
+
+- `Llama 3.1 8B`
+- `Llama 3.1 70B`
+- `Llama 4 Scout`
+- `Qwen 3 32B`
+- `DeepSeek R1 Distill Llama 70B` (private preview only)
+
 Try a simple chat completion with `Llama 3.1 8B` by running the below Python code snippet,
 which can be found in `test.py` in this directory:
 

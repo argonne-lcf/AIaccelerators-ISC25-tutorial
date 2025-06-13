@@ -13,12 +13,12 @@ maximum performance, efficiency, and flexibility.
 
 Unlike traditional devices, in which the working cache memory is tiny, the WSE-3 takes 44GB of
 super-fast on-chip SRAM and spreads it evenly across the entire surface of the chip. This gives
-every core single-clock-cycle access to fast memory at extremely high bandwidth – 21 PB/s. This is
+every core single-clock-cycle access to fast memory at extremely high bandwidth – 25 PB/s. This is
 880x more capacity and 7,000x greater bandwidth than the leading GPU.
 
 The 900,000 cores are laid out in a uniform grid, with each core connected to its four nearest
 neighbors. The WSE-3 on-wafer interconnect eliminates the communication slowdown and inefficiencies
-of connecting hundreds of small devices via wires and cables. It delivers an incredible 214 Pb/s
+of connecting hundreds of small devices via wires and cables. It delivers an incredible 245 Pb/s
 processor-processor interconnect bandwidth. That’s more than 3,715x the bandwidth delivered between
 graphics processors.
 
@@ -44,9 +44,8 @@ CS systems to the MemoryX. This topology enables a completely data parallel mode
 ## Cerebras System Applications
 
 The materials here focus on three applications for the Cerebras system: (1) push-button AI training
-via PyTorch, (2) inference on Llama 3.1 8B and 70B via the Cerebras inference API and Cerebras
-inference cloud, and custom applications and HPC workloads developed with the low-level Cerebras
-SDK.
+via PyTorch, (2) inference via the Cerebras inference API and Cerebras inference cloud, and custom
+applications and HPC workloads developed with the low-level Cerebras SDK.
 
 See the following sections to learn more:
 

@@ -83,7 +83,7 @@ response = client.chat.completions.create(
 content = response.choices[0].message.content
 tool_calls = response.choices[0].message.tool_calls
 
-if content:
+if content.strip():
     print("The assistant did not use a tool. Produced following response: ")
     print(content)
 

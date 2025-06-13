@@ -39,3 +39,5 @@ an infinite loop, is implemented in `main.py`.
    tokens_per_second = total_tokens / total_time
    ```
    After receiving the response, the total tokens used and the total processing time are extracted from the response object. Tokens per second are then calculated by dividing the total tokens by the total time.
+
+Try using another model, such as `qwen-3-32b`, and compare responses.
