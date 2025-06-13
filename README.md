@@ -54,7 +54,7 @@ Reach out to us on slack channel `#help-accounts` on [ALCF-AIAccelerator-tutoria
 
 * [Github Tutorial Repository](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial)
 * [Overview of AI Testbeds at ALCF](https://www.alcf.anl.gov/alcf-ai-testbed)
-* [ALCF AI Testbed Documentation](https://www.alcf.anl.gov/support/ai-testbed-userdocs/)
+* [ALCF AI Testbed Documentation](https://docs.alcf.anl.gov/ai-testbed/)
 * [Director’s Discretionary Allocation Program](https://www.alcf.anl.gov/science/directors-discretionary-allocation-program)
 * [Join Slack Workspace](https://join.slack.com/t/alcf-aiacc-tutorials/shared_invite/zt-2uma9x2zm-PDm9dlnGZqtO~_DkANZwWA)
 
