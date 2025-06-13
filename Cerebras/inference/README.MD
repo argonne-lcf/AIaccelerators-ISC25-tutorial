@@ -40,11 +40,13 @@ pip install -r requirements.txt
 
 The Cerebras Inference cloud currently supports the following models:
 
-- `Llama 3.1 8B`
-- `Llama 3.1 70B`
-- `Llama 4 Scout`
-- `Qwen 3 32B`
-- `DeepSeek R1 Distill Llama 70B` (private preview only)
+ | Model Name				| Model ID			 | Parameters	| Speed (tokens/s)
+ | ------------------------------------ | ------------------------------ | ------------ | ---------------
+ | Llama 4 Scout			| `llama-4-scout-17b-16e-instruct` | 109 billion | ~2600 tokens/s
+ | Llama 3.1 8B				| `llama3.1-8b`			 | 8 billion	| ~2200 tokens/s
+ | Llama 3.3 70B			| `llama-3.3-70b`		 | 70 billion	| ~2100 tokens/s
+ | Qwen 3 32B				| `qwen-3-32b`			 | 32 billion	| ~2100 tokens/s
+ | DeepSeek R1 Distill Llama 70B (private preview only)	 | `deepseek-r1-distill-llama-70b` | 70 billion | ~1700 tokens/s
 
 Try a simple chat completion with `Llama 3.1 8B` by running the below Python code snippet,
 which can be found in `test.py` in this directory:
